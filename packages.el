@@ -1,7 +1,7 @@
-(defconst blacken-packages
+(defconst spaceblacken-packages
   '(blacken))
 
-(defun blacken/init-blacken ()
+(defun spaceblacken/init-blacken ()
   (add-hook
    'python-mode-hook
    (lambda ()
