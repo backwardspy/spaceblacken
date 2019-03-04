@@ -1,6 +1,6 @@
 # spaceblacken
 
-Adds a `python-format-buffer` command to Spacemacs. Powered by (black)[https://github.com/ambv/black] and (reformatter.el)[https://github.com/purcell/reformatter.el].
+Adds a `python-format-buffer` command to Spacemacs. Powered by [black](https://github.com/ambv/black) and [reformatter.el](https://github.com/purcell/reformatter.el).
 
 ## Usage
 
