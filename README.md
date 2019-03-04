@@ -1,15 +1,15 @@
 # spaceblacken
 
-Sets [blacken](https://github.com/proofit404/blacken) as the default formatter for the `python` layer in spacemacs.
+Adds a `python-format-buffer` command to Spacemacs. Powered by (black)[https://github.com/ambv/black] and (reformatter.el)[https://github.com/purcell/reformatter.el].
 
 ## Usage
 
 1. Clone this repository into your private layer directory (`~/.emacs.d/private/` by default).
 2. Add `spaceblacken` to your `dotspacemacs-configuration-layers` and restart spacemacs.
 
-Upon entering `python-mode`, press `, =` (evil) or `M-RET =` (emacs) to run the `blacken-buffer` command.
+In `python-mode`, press `, =` (evil) or `M-RET =` (emacs) to run the `python-format-buffer` command.
 
-## Variables
+## Customisation
 
 ### spaceblacken-line-length
 
