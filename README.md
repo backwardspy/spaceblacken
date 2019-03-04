@@ -13,4 +13,4 @@ Upon entering `python-mode`, press `, =` (evil) or `M-RET =` (emacs) to run the 
 
 ### spaceblacken-line-length
 
-Copied verbatim into `blacken-line-length` on activation. Set to `'fill` by default.
+Passed as the `--line-length` argument to black. If set to `'fill`, uses the value of `fill-column`. Set to `'fill` by default.

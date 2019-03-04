@@ -1,2 +1,2 @@
 (defvar spaceblacken-line-length 'fill
-  "Line length passed into blacken-line-length")
+  "Line length passed to black")
